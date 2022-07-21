@@ -35,3 +35,6 @@ If you want to keep the bot online 24/7 follow these steps:
 - Connect your repl with a monitor
 - Configure ping period
 - SHEBANG! You created your own discord bot
+
+### Give Us A Star
+If you liked this repository and the bot template feel free to star the repo :star:
