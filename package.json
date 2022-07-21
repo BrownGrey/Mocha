@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "ShivamKun",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/voice": "^0.10.0",
     "@distube/soundcloud": "^1.1.0",
