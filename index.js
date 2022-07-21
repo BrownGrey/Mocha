@@ -21,3 +21,12 @@ process.on("multipleResolves", (type, promise, reason) => {
   console.log(" [Error_Handling] :: Multiple Resolves");
   console.log(type, promise, reason);
 });
+const express = require('express')
+const app = express();
+const port = 3000;
+app.get('/', (req, res) => {
+  res.send('Mocha 24/7!')
+})
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
