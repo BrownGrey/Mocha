@@ -28,6 +28,9 @@
 - Install the dependencies using `npm i`
 - Click on **Run** Button to run the bot
 
+<img src="https://user-images.githubusercontent.com/91766105/180533625-5092813b-e85b-4d83-b39b-dc1536c8888d.gif" width="300px"/>
+
+
 ### Keeping The Bot Alive
 
 If you want to keep the bot online 24/7 follow these steps:
