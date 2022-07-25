@@ -1,5 +1,3 @@
-<img height="360" width="250" align="right" alt="Mocha" src="https://cdn.discordapp.com/attachments/912972201282637846/999735623931936768/MochaRepo.png">
-
 ## Mocha Music Bot Template
 **A discord music bot template built using node.js. Feel free to edit and host your own version of this music bot.**
 **The prominent features of Mocha bot template are:**
@@ -14,7 +12,7 @@
 - [ ] Anime emotes
 - [ ] Organize the code
 
-### Hosting The Bot
+### `Hosting The Bot`
 [![Run on Repl.it](https://repl.it/badge/github/shivamkun/mocha)](https://replit.com/github/shivamkun/mocha)
 
 - To run the bot you can simply click on the `Run on Repl.it` button above.
@@ -28,10 +26,7 @@
 - Install the dependencies using `npm i`
 - Click on **Run** Button to run the bot
 
-<img src="https://user-images.githubusercontent.com/91766105/180533625-5092813b-e85b-4d83-b39b-dc1536c8888d.gif" width="300px"/>
-
-
-### Keeping The Bot Alive
+### `Keeping The Bot Alive`
 
 If you want to keep the bot online 24/7 follow these steps:
 - Go to uptimerobot 
@@ -39,5 +34,5 @@ If you want to keep the bot online 24/7 follow these steps:
 - Configure ping period
 - SHEBANG! You created your own discord bot
 
-### Give Us A Star
+### `Drop A Star`
 If you liked this repository and the bot template feel free to star the repo :star:
