@@ -29,7 +29,7 @@
 ### `Keeping The Bot Alive`
 
 If you want to keep the bot online 24/7 follow these steps:
-- Go to uptimerobot 
+- Go to [uptimerobot.com](https://uptimerobot.com) 
 - Connect your repl with a monitor
 - Configure ping period
 - SHEBANG! You created your own discord bot
