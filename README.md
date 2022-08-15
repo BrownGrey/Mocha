@@ -8,7 +8,7 @@
 - [x] No customization limits
 
 **Things still need to be done with the bot**
-- [ ] Better emojis
+- [x] Better emojis
 - [ ] Anime emotes
 - [ ] Organize the code
 
