@@ -4,8 +4,8 @@ module.exports = {
     "BOT_TOKEN",
   PREFIX: process.env.PREFIX || "BOT_PREFIX",
   embed: {
-    color: process.env.color || "#220f80",
-    wrongcolor: process.env.wrongcolor || "#8a0808",
+    color: process.env.color || "#5865f2",
+    wrongcolor: process.env.wrongcolor || "#ff4747",
     footertext: " ",
     footericon: " ",
   },

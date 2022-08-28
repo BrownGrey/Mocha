@@ -1,7 +1,7 @@
-const MOCHA = require("./handlers/Client");
+const WUMPUSBOT = require("./handlers/Client");
 const { TOKEN } = require("./settings/config");
 
-const client = new MOCHA();
+const client = new WUMPUSBOT();
 module.exports = client;
 client.start(TOKEN);
 
@@ -25,7 +25,7 @@ const express = require('express')
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('Mocha 24/7!')
+  res.send('WumpusBot 24/7!')
 })
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

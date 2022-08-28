@@ -1,5 +1,5 @@
 const { Message, MessageEmbed, version } = require("discord.js");
-const MOCHA = require("../../../handlers/Client");
+const WUMPUSBOT = require("../../../handlers/Client");
 const { Queue } = require("distube");
 let os = require("os");
 let cpuStat = require("cpu-stat");
@@ -19,7 +19,7 @@ module.exports = {
 
   /**
    *
-   * @param {MOCHA} client
+   * @param {WUMPUSBOT} client
    * @param {Message} message
    * @param {String[]} args
    * @param {String} prefix

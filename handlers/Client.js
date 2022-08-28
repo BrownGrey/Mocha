@@ -6,7 +6,7 @@ const { SoundCloudPlugin } = require("@distube/soundcloud");
 const { YtDlpPlugin } = require("@distube/yt-dlp");
 const { filters, options } = require("../settings/config");
 
-class MOCHA extends Client {
+class WUMPUSBOT extends Client {
   constructor() {
     super({
       messageCacheLifetime: 60,
@@ -84,4 +84,4 @@ class MOCHA extends Client {
   }
 }
 
-module.exports = MOCHA;
+module.exports = WUMPUSBOT;

@@ -1,11 +1,11 @@
 const { glob } = require("glob");
 const { promisify } = require("util");
 const globPromise = promisify(glob);
-const MOCHA = require("./Client");
+const WUMPUSBOT = require("./Client");
 
 /**
  *
- * @param {MOCHA} client
+ * @param {WUMPUSBOT} client
  */
 module.exports = async (client) => {
   // LOADING SLASH COMMANDS

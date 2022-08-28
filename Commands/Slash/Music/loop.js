@@ -1,5 +1,5 @@
 const { CommandInteraction } = require("discord.js");
-const MOCHA = require("../../../handlers/Client");
+const WUMPUSBOT = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
 
   /**
    *
-   * @param {MOCHA} client
+   * @param {WUMPUSBOT} client
    * @param {CommandInteraction} interaction
    * @param {String[]} args
    * @param {Queue} queue

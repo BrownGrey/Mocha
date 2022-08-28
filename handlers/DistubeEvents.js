@@ -1,12 +1,12 @@
 "use strict";
 const { MessageEmbed } = require("discord.js");
-const MOCHA = require("./Client");
+const WUMPUSBOT = require("./Client");
 const { Song, SearchResult } = require("distube");
 let voiceMap = new Map();
 
 /**
  *
- * @param {MOCHA} client
+ * @param {WUMPUSBOT} client
  */
 module.exports = async (client) => {
   client.distube.setMaxListeners(0);

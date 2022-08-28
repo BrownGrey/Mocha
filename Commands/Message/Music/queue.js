@@ -1,5 +1,5 @@
 const { Message } = require("discord.js");
-const MOCHA = require("../../../handlers/Client");
+const WUMPUSBOT = require("../../../handlers/Client");
 const { Queue } = require("distube");
 const { swap_pages } = require("../../../handlers/functions");
 
@@ -18,7 +18,7 @@ module.exports = {
 
   /**
    *
-   * @param {MOCHA} client
+   * @param {WUMPUSBOT} client
    * @param {Message} message
    * @param {String[]} args
    * @param {String} prefix

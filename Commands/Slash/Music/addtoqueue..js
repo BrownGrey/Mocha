@@ -1,5 +1,5 @@
 const { ContextMenuInteraction } = require("discord.js");
-const MOCHA = require("../../../handlers/Client");
+const WUMPUSBOT = require("../../../handlers/Client");
 
 module.exports = {
     name: "addtoqueue",
@@ -8,7 +8,7 @@ module.exports = {
 
     /**
      * 
-     * @param {MOCHA} client 
+     * @param {WUMPUSBOT} client 
      * @param {ContextMenuInteraction} interaction 
      */
     run: async (client, interaction) => {

@@ -1,10 +1,10 @@
-const MOCHA = require("./Client");
+const WUMPUSBOT = require("./Client");
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 const { Queue } = require("distube");
 
 /**
  *
- * @param {MOCHA} client
+ * @param {WUMPUSBOT} client
  */
 module.exports = async (client) => {
   client.embed = (interaction, data) => {

@@ -1,5 +1,5 @@
 const { CommandInteraction , MessageActionRow , MessageSelectMenu , MessageEmbed} = require("discord.js");
-const MOCHA = require("../../../handlers/Client");
+const WUMPUSBOT = require("../../../handlers/Client");
 const { Queue } = require("distube");
 const { numberEmojis } = require("../../../settings/config");
 
@@ -26,7 +26,7 @@ module.exports = {
 
   /**
    *
-   * @param {MOCHA} client
+   * @param {WUMPUSBOT} client
    * @param {CommandInteraction} interaction
    * @param {String[]} args
    * @param {Queue} queue
