@@ -1,4 +1,4 @@
-## WumpusBot Music Bot Template
+## WumpusBot Template
 **A discord music bot template built using node.js. Feel free to edit and host your own version of this music bot.**
 **The prominent features of WumpusBot bot template are:**
 - [x] Slash commmands enabled
