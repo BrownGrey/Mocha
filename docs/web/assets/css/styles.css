@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Monsterrat");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -12,7 +12,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Tangerine', sans-serif;
+  --body-font: 'Monsterrat', sans-serif;
   --biggest-font-size: 2.375rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
