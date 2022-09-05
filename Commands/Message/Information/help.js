@@ -1,3 +1,7 @@
+/*colector.on("end", async (c, i) => {
+      raw.components.forEach((c) => c.setDisabled(true));
+      main_msg.edit({ components: [raw] }).catch((e) => {}); */
+      
 const {
   Message,
   MessageEmbed,
@@ -77,7 +81,7 @@ module.exports = {
       )
       .addField(
         `Stats`,
-        `>>> ** :gear: \`${allcommands}\` Commands \n :file_folder: \`${allguilds}\` Guilds \n ⌚️ ${botuptime} Uptime \n 🏓 \`${client.ws.ping}\` Ping \n  Made by [\` Tech Boy Development \`](https://discord.gg/PcUVWApWN3) **`
+        `>>> ** :gear: \`${allcommands}\` Commands \n :file_folder: \`${allguilds}\` Guilds \n ⌚️ ${botuptime} Uptime \n 🏓 \`${client.ws.ping}\` Ping \n  Made by [\` ShivamKun \`](https://discord.gg/PcUVWApWN3) **`
       )
       .setFooter(client.getFooter(message.author));
 
@@ -124,7 +128,6 @@ module.exports = {
         }
       }
     });
-
     colector.on("end", async (c, i) => {
       raw.components.forEach((c) => c.setDisabled(true));
       main_msg.edit({ components: [raw] }).catch((e) => {});
